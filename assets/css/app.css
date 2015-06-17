@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#map {
+  width: 100%;
+  height: calc(100% - 51px);
+}
+.uk-navbar-brand, .uk-navbar-content, .uk-navbar-toggle {
+  height: 50px;
+}
+.uk-navbar-center {
+  max-width: 75%;
+  padding-top: 5px;
+}
+.uk-dropdown, uk-dropdown-search {
+  width: 100%;
+}
+.new-marker-popup {
+  text-align: center;
+  cursor: pointer;
+}
