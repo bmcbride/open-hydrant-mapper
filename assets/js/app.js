@@ -53,6 +53,12 @@ var newHydrantCtrl = L.easyButton("uk-icon-plus",
       }
 
       newMarker = L.marker(e.latlng, {
+        icon: L.icon({
+          iconUrl: "assets/img/new-marker.png",
+          iconSize: [30, 40],
+          iconAnchor: [15, 32],
+          popupAnchor: [0, -32]
+        }),
         draggable: true,
         riseOnHover: true
       }).bindPopup("<div class='new-marker-popup center-block'><b>Drag marker to adjust location.</b><br>Then tap here to enter info.</div>")
@@ -122,9 +128,8 @@ var hydrants = L.geoJson(null, {
     return L.marker(latlng, {
       icon: L.icon({
         iconUrl: "assets/img/fire-hydrant.png",
-        iconSize: [24, 28],
-        iconAnchor: [12, 28],
-        popupAnchor: [0, -25]
+        iconSize: [30, 40],
+        iconAnchor: [15, 32]
       }),
       title: feature.properties.id,
       riseOnHover: true
