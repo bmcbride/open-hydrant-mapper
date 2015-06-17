@@ -20,3 +20,11 @@ While there are plenty of excellent full-featured [OSM editors](http://wiki.open
 * [Leaflet](http://leafletjs.com/): An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps.
 
 * [OpenStreetMap](http://www.openstreetmap.org/): The free and editable map of the world, OpenStreetMap powers map data on hundreds of web sites, mobile apps, and hardware devices
+
+## Screenshots
+
+![Map](https://raw.githubusercontent.com/bmcbride/open-hydrant-mapper/master/screenshots/map-view.png)
+
+![Form](https://raw.githubusercontent.com/bmcbride/open-hydrant-mapper/master/screenshots/form-view.png)
+
+![Settings](https://raw.githubusercontent.com/bmcbride/open-hydrant-mapper/master/screenshots/settings-view.png)
